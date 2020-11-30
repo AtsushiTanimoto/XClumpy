@@ -49,5 +49,8 @@ The XClumpy model has six free parameters.
 | norm      | normalization                                      | ...                             | ...             | 
 
 
+## Examples
+
+
 ## Acknowledgement
 Numerical computations were carried out on Cray XC50 at Center for Computational Astrophysics, National Astronomical Observatory of Japan.
