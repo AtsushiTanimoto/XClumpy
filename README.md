@@ -1,6 +1,6 @@
 # XClumpy
 ## Introduction
-XClumpy [(Tanimoto et al. 2019)](https://ui.adsabs.harvard.edu/abs/2019ApJ...877...95T/abstract) is an X-ray spectral model from the clumpy torus in an Active Galactic Nucleus, utilizing the Monte Carlo simulation for Astrophysics and Cosmology framework [(Odaka et al. 2011)](https://ui.adsabs.harvard.edu/abs/2011ApJ...740..103O/abstract).
+XClumpy [(Tanimoto et al. 2019)](https://ui.adsabs.harvard.edu/abs/2019ApJ...877...95T/abstract) is an X-ray spectral model from the clumpy torus in an Active Galactic Nucleus, utilizing the Monte Carlo simulation for Astrophysics and Cosmology framework (MONACO: [(Odaka et al. 2011)](https://ui.adsabs.harvard.edu/abs/2011ApJ...740..103O/abstract)).
 
 
 ## Torus Geometry
