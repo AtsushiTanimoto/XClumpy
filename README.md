@@ -15,7 +15,7 @@ The adopted geometry of the torus is the same as that in [Nenkova et al. (2008)]
 We prepared an xcm file of the XClumpy model (xclumpy.xcm). Our model is represented in XSPEC the following:  
 `const1*phabs*(const2*zphabs*cabs*zcutoffpl+const3*zcutoffpl+atable{xclumpy_v01_RC.fits}+atable{xclumpy_v01_RL.fits})`  
 
-This model consists of six components:  
+This model consists of five components:  
 1. `const1*phabs`  
   The const1 term is a cross-normalization constant to adjust small differences in the absolute flux calibration among different instruments. The phabs term represents the Galactic absorption.  
 
@@ -41,7 +41,7 @@ The XClumpy model has six free parameters.
 
 | Parameter | Explanation                                        | Range                           | Units           | 
 | :-------: | :------------------------------------------------: | :-----------------------------: | :-------------: | 
-| nH        | hydrogen column density along the equatorial plane | 10<sup>23</sup>-10<sup>25</sup> | cm<sup>-2</sup> | 
+| nh        | hydrogen column density along the equatorial plane | 10<sup>23</sup>-10<sup>25</sup> | cm<sup>-2</sup> | 
 | sigma     | torus angular width                                | 10-90                           | degree          | 
 | incl      | inclination angle                                  | 20-87                           | degree          | 
 | gamma     | photon index                                       | 1.5-2.5                         | ...             | 
