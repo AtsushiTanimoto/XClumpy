@@ -47,3 +47,7 @@ The XClumpy model has six free parameters.
 | gamma     | photon index                                       | 1.5-2.5                         | ...             | 
 | cutoff    | cutoff energy                                      | 370                             | keV             | 
 | norm      | normalization                                      | ...                             | ...             | 
+
+
+## Acknowledgement
+Numerical computations were carried out on Cray XC50 at Center for Computational Astrophysics, National Astronomical Observatory of Japan.
