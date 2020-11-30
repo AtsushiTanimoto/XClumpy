@@ -21,7 +21,6 @@ This model consists of six components:
 3. const3\*zcutoffpl.  
   
 
-
 ## Parameters
 This XClumpy model has seven free parameters:  
 
