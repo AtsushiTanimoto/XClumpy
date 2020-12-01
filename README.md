@@ -81,7 +81,7 @@ We show the dependence of the reflection continuum on the hydrogen column densit
 
 
 ## Citation
-If you have used the XClumpy model in a scientific publication, please cite [Tanimoto et al. 2019](https://ui.adsabs.harvard.edu/abs/2019ApJ...877...95T/abstract).
+If you have used the XClumpy model in a scientific publication, please cite [Tanimoto et al. (2019)](https://ui.adsabs.harvard.edu/abs/2019ApJ...877...95T/abstract).
 
 
 ## Acknowledgement
