@@ -23,7 +23,7 @@ This model consists of five components:
   This component represents the transmitted continuum through the torus. The zphabs and cabs terms represent the photoelectric absorption and Compton scattering by the torus, respectively. The hydrogen column density along the line of sight is determined according to Equation (1). The zcutoffpl term is the instrinsic continuum modeled by a power-law with an exponential cutoff. We fix this at a typical value (E<sub>cut</sub> = 370 keV).  
 
 3. `const2*zcutoffpl`  
-  This component represents the scattered component. The const3 term is the scattering fraction. We link the photon index, the cutoff energy, and the normalization to those of the intrinsic continuum.
+  This component represents the scattered component. The const term is the scattering fraction. We link the photon index, the cutoff energy, and the normalization to those of the intrinsic continuum.
 
 4. `atable{xclumpy_v01_RC.fits}`  
   This component represents the reflection continuum from the clumpy torus based on the XClumpy model. This XClumpy model has six parameters: (1) hydrogen column density along the equatorial plane, (2) torus angular width, (3) inclination angle, (4) photon index, (5) cutoff energy, and (6) normalization (See Parameters). We link the photon index, the cutoff energy, and the normalization to those of the intrinsic continuum. We determine the line-of-sight hydrogen column density the following equation:
