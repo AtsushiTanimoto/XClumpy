@@ -1,2 +1,0 @@
-xclumpy_v01_RC.fits filter=lfs diff=lfs merge=lfs -text
-xclumpy_v01_RL.fits filter=lfs diff=lfs merge=lfs -text
