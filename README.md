@@ -4,7 +4,7 @@ XClumpy [(Tanimoto et al. 2019)](https://ui.adsabs.harvard.edu/abs/2019ApJ...877
 
 
 ## Torus Geometry
-The adopted geometry of the torus is the same as that in [Nenkova et al. (2008)](https://ui.adsabs.harvard.edu/abs/2008ApJ...685..160N/abstract), who assume a power-law distribution of clumps in the radial direction and a normal distribution in the elevation direction. This enables us to directly compare the results obtained from the infrared and X-ray bands. If you would like to need more information, please see [Tanimoto et al. (2019)](https://ui.adsabs.harvard.edu/abs/2019ApJ...877...95T/abstract).
+The adopted geometry of the torus is the same as that in [Nenkova et al. (2008)](https://ui.adsabs.harvard.edu/abs/2008ApJ...685..160N/abstract), who assume a power-law distribution of clumps in the radial direction and a normal distribution in the elevation direction. This enables us to directly compare the results obtained from the infrared and X-ray bands. See [Tanimoto et al. (2019)](https://ui.adsabs.harvard.edu/abs/2019ApJ...877...95T/abstract) for more details.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/20199124/100601931-96766180-3346-11eb-9f25-2f96b4a8671c.jpg">
@@ -12,28 +12,25 @@ The adopted geometry of the torus is the same as that in [Nenkova et al. (2008)]
 
 
 ## Usage
-We prepared an xcm file of the XClumpy model (xclumpy.xcm). Our spectral model is represented in XSPEC the following:  
-`const1*phabs*(zphabs*cabs*zcutoffpl+const2*zcutoffpl+atable{xclumpy_v01_RC.fits}+atable{xclumpy_v01_RL.fits})`  
+We prepared an xcm file of the XClumpy model (xclumpy.xcm). Our spectral model is represented as follows in XSPEC terminology:  
+`const1*phabs*(zphabs*cabs*zcutoffpl+atable{xclumpy_v01_RC.fits}+atable{xclumpy_v01_RL.fits})`  
 
-This model consists of five components:  
+This model consists of four components:  
 1. `const1*phabs`  
    The const1 term is a cross-normalization constant to adjust small differences in the absolute flux calibration among different instruments. The phabs term represents the Galactic absorption.  
 
 2. `zphabs*cabs*zcutoffpl`  
    This component represents the transmitted continuum through the torus. The zphabs and cabs terms represent the photoelectric absorption and Compton scattering by the torus, respectively. The hydrogen column density along the line of sight is determined according to Equation (1). The zcutoffpl term is the intrinsic continuum modeled by a power-law with an exponential cutoff. We fix this at a typical value (E<sub>cut</sub> = 370 keV).  
 
-3. `const2*zcutoffpl`  
-   This component represents the scattered component. The const term is the scattering fraction. We link the photon index, the cutoff energy, and the normalization to those of the intrinsic continuum.
-
-4. `atable{xclumpy_v01_RC.fits}`  
-   This component represents the reflection continuum from the clumpy torus based on the XClumpy model. This XClumpy model has six parameters: (1) hydrogen column density along the equatorial plane, (2) torus angular width, (3) inclination angle, (4) photon index, (5) cutoff energy, and (6) normalization (See Parameters). We link the photon index, the cutoff energy, and the normalization to those of the intrinsic continuum. We determine the line-of-sight hydrogen column density the following equation:
+3. `atable{xclumpy_v01_RC.fits}`  
+   This component represents the reflection continuum from the clumpy torus based on the XClumpy model. This XClumpy model has six parameters: (1) hydrogen column density along the equatorial plane, (2) torus angular width, (3) inclination angle, (4) photon index, (5) cutoff energy, and (6) normalization (See Parameters). The photon index, cutoff energy, and normalization must be linked to those of the intrinsic continuum. We determine the line-of-sight hydrogen column density the following equation:
 
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Cbegin%7Bequation%7D%0AN_%7B%5Cmathrm%7BH%7D%7D%5E%7B%5Cmathrm%7BLOS%7D%7D+%3D+N_%7B%5Cmathrm%7BH%7D%7D%5E%7B%5Cmathrm%7BEqu%7D%7D+%5Cexp%5Cleft%28%7B-%5Cfrac%7B%28i-%5Cpi%2F2%29%5E2%7D%7B%5Csigma%5E2%7D%7D%5Cright%29%0A%5Cend%7Bequation%7D%0A" alt="\begin{equation} N_{\mathrm{H}}^{\mathrm{LOS}} = N_{\mathrm{H}}^{\mathrm{Equ}} \exp\left({-\frac{(i-\pi/2)^2}{\sigma^2}}\right)\end{equation}">
 </p>
 
-5. `atable{xclumpy_v01_RL.fits}`  
-   This component represents fluorescence lines from the clumpy torus based on the XClumpy model. We link the photon index, the cutoff energy, and the normalization to those of the reflection continuum.
+4. `atable{xclumpy_v01_RL.fits}`  
+   This component represents fluorescence lines from the clumpy torus based on the XClumpy model. The hydrogen column density along the equatorial plane, torus angular width, inclination, photon index, cutoff energy, and normalization must be linked to those of the reflection continuum.
 
 
 ## Parameters
@@ -81,6 +78,10 @@ We show the dependence of the reflection continuum on the hydrogen column densit
 6. [Nature of Compton-thick Active Galactic Nuclei in "Nonmerging" Luminous Infrared Galaxies UGC 2608 and NGC 5135 Revealed with Broadband X-Ray Spectroscopy](https://ui.adsabs.harvard.edu/abs/2020ApJ...897..107Y/abstract)  
    Satoshi Yamada, Yoshihiro Ueda, Atsushi Tanimoto, Saeko Oda, Masatoshi Imanishi, Yoshiki Toba, & Ricci Claudio  
    The Astrophysical Journal, Volume 897, Issue 1, id.107, (2020).
+
+
+## Citation
+If you have used the XClumpy model in a scientific publication, please cite [(Tanimoto et al. 2019)](https://ui.adsabs.harvard.edu/abs/2019ApJ...877...95T/abstract).
 
 
 ## Acknowledgement
