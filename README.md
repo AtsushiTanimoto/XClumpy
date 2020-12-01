@@ -37,7 +37,7 @@ This model consists of five components:
 
 
 ## Parameters
-The XClumpy model has six free parameters.
+The XClumpy model has six parameters.
 
 | Parameter | Explanation                                        | Range                           | Units           | 
 | :-------: | :------------------------------------------------: | :-----------------------------: | :-------------: | 
