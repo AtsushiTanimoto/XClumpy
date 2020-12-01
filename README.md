@@ -30,7 +30,7 @@ This model consists of four components:
 </p>
 
 4. `atable{xclumpy_v01_RL.fits}`  
-   This component represents fluorescence lines from the clumpy torus based on the XClumpy model. The hydrogen column density along the equatorial plane, torus angular width, inclination, photon index, cutoff energy, and normalization must be linked to those of the reflection continuum.
+   This component represents fluorescence lines from the clumpy torus based on the XClumpy model. The hydrogen column density along the equatorial plane, torus angular width, inclination angle, photon index, cutoff energy, and normalization must be linked to those of the reflection continuum.
 
 
 ## Parameters
