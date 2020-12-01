@@ -13,16 +13,16 @@ The adopted geometry of the torus is the same as that in [Nenkova et al. (2008)]
 
 ## Usage
 We prepared an xcm file of the XClumpy model (xclumpy.xcm). Our model is represented in XSPEC the following:  
-`const1*phabs*(const2*zphabs*cabs*zcutoffpl+const3*zcutoffpl+atable{xclumpy_v01_RC.fits}+atable{xclumpy_v01_RL.fits})`  
+`const1*phabs*(zphabs*cabs*zcutoffpl+const2*zcutoffpl+atable{xclumpy_v01_RC.fits}+atable{xclumpy_v01_RL.fits})`  
 
 This model consists of five components:  
 1. `const1*phabs`  
   The const1 term is a cross-normalization constant to adjust small differences in the absolute flux calibration among different instruments. The phabs term represents the Galactic absorption.  
 
-2. `const2*zphabs*cabs*zcutoffpl`  
-  This component represents the transmitted continuum through the torus. The const2 term is a constant to consider time variability. We limit the const2 value within a range of 0.10-10.0 to avoid unrealistic results. The zphabs and cabs terms represent the photoelectric absorption and Compton scattering by the torus, respectively. The hydrogen column density along the line of sight is determined according to Equation (1). The zcutoffpl term is the instrinsic continuum modeled by a power-law with an exponential cutoff. We fix this at a typical value (E<sub>cut</sub> = 370 keV).  
+2. `zphabs*cabs*zcutoffpl`  
+  This component represents the transmitted continuum through the torus. The zphabs and cabs terms represent the photoelectric absorption and Compton scattering by the torus, respectively. The hydrogen column density along the line of sight is determined according to Equation (1). The zcutoffpl term is the instrinsic continuum modeled by a power-law with an exponential cutoff. We fix this at a typical value (E<sub>cut</sub> = 370 keV).  
 
-3. `const3*zcutoffpl`  
+3. `const2*zcutoffpl`  
   This component represents the scattered component. The const3 term is the scattering fraction. We link the photon index, the cutoff energy, and the normalization to those of the intrinsic continuum.
 
 4. `atable{xclumpy_v01_RC.fits}`  
