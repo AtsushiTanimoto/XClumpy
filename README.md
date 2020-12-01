@@ -17,23 +17,23 @@ We prepared an xcm file of the XClumpy model (xclumpy.xcm). Our spectral model i
 
 This model consists of five components:  
 1. `const1*phabs`  
-  The const1 term is a cross-normalization constant to adjust small differences in the absolute flux calibration among different instruments. The phabs term represents the Galactic absorption.  
+   The const1 term is a cross-normalization constant to adjust small differences in the absolute flux calibration among different instruments. The phabs term represents the Galactic absorption.  
 
 2. `zphabs*cabs*zcutoffpl`  
-  This component represents the transmitted continuum through the torus. The zphabs and cabs terms represent the photoelectric absorption and Compton scattering by the torus, respectively. The hydrogen column density along the line of sight is determined according to Equation (1). The zcutoffpl term is the instrinsic continuum modeled by a power-law with an exponential cutoff. We fix this at a typical value (E<sub>cut</sub> = 370 keV).  
+   This component represents the transmitted continuum through the torus. The zphabs and cabs terms represent the photoelectric absorption and Compton scattering by the torus, respectively. The hydrogen column density along the line of sight is determined according to Equation (1). The zcutoffpl term is the instrinsic continuum modeled by a power-law with an exponential cutoff. We fix this at a typical value (E<sub>cut</sub> = 370 keV).  
 
 3. `const2*zcutoffpl`  
-  This component represents the scattered component. The const term is the scattering fraction. We link the photon index, the cutoff energy, and the normalization to those of the intrinsic continuum.
+   This component represents the scattered component. The const term is the scattering fraction. We link the photon index, the cutoff energy, and the normalization to those of the intrinsic continuum.
 
 4. `atable{xclumpy_v01_RC.fits}`  
-  This component represents the reflection continuum from the clumpy torus based on the XClumpy model. This XClumpy model has six parameters: (1) hydrogen column density along the equatorial plane, (2) torus angular width, (3) inclination angle, (4) photon index, (5) cutoff energy, and (6) normalization (See Parameters). We link the photon index, the cutoff energy, and the normalization to those of the intrinsic continuum. We determine the line-of-sight hydrogen column density the following equation:
+   This component represents the reflection continuum from the clumpy torus based on the XClumpy model. This XClumpy model has six parameters: (1) hydrogen column density along the equatorial plane, (2) torus angular width, (3) inclination angle, (4) photon index, (5) cutoff energy, and (6) normalization (See Parameters). We link the photon index, the cutoff energy, and the normalization to those of the intrinsic continuum. We determine the line-of-sight hydrogen column density the following equation:
 
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Cbegin%7Bequation%7D%0AN_%7B%5Cmathrm%7BH%7D%7D%5E%7B%5Cmathrm%7BLOS%7D%7D+%3D+N_%7B%5Cmathrm%7BH%7D%7D%5E%7B%5Cmathrm%7BEqu%7D%7D+%5Cexp%5Cleft%28%7B-%5Cfrac%7B%28i-%5Cpi%2F2%29%5E2%7D%7B%5Csigma%5E2%7D%7D%5Cright%29%0A%5Cend%7Bequation%7D%0A" alt="\begin{equation} N_{\mathrm{H}}^{\mathrm{LOS}} = N_{\mathrm{H}}^{\mathrm{Equ}} \exp\left({-\frac{(i-\pi/2)^2}{\sigma^2}}\right)\end{equation}">
 </p>
 
 5. `atable{xclumpy_v01_RL.fits}`  
-  This component represents fluorescence lines from the clumpy torus based on the XClumpy model. We link the photon index, the cutoff energy, and the normalization to those of the reflection continuum.
+   This component represents fluorescence lines from the clumpy torus based on the XClumpy model. We link the photon index, the cutoff energy, and the normalization to those of the reflection continuum.
 
 
 ## Parameters
@@ -55,6 +55,32 @@ We show the dependence of the reflection continuum on the hydrogen column densit
 <p align="center">
 <img src="https://user-images.githubusercontent.com/20199124/100716198-b451ce00-33fb-11eb-9e6a-72e370c3ae0c.jpg">
 </p>
+
+
+## Publications
+1. [XCLUMPY: X-Ray Spectral Model from Clumpy Torus and Its Application to the Circinus Galaxy](https://ui.adsabs.harvard.edu/abs/2019ApJ...877...95T/abstract)  
+   Atsushi Tanimoto, Yoshihiro Ueda, Hirokazu Odaka, Toshihiro Kawaguchi, Yasushi Fukazawa, & Taiki Kawamuro  
+   The Astrophysical Journal, Volume 877, Issue 2, article id. 95, 16 pp. (2019).
+
+2. [Application of Clumpy Torus Model to Broadband X-Ray Spectra of Two Seyfert 1 Galaxies: IC 4329A and NGC 7469](https://ui.adsabs.harvard.edu/abs/2019ApJ...875..115O/abstract)  
+   Shoji Ogawa, Yoshihiro Ueda, Satoshi Yamada, Atsushi Tanimoto, & Toshihiro Kawaguchi  
+   The Astrophysical Journal, Volume 875, Issue 2, article id. 115, 10 pp. (2019).
+
+3. [Torus Constraints in ANEPD-CXO245: A Compton-thick AGN with Double-peaked Narrow Lines](https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..10M/abstract)  
+   Takamitsu Miyaji et al.  
+   The Astrophysical Journal Letters, Volume 884, Issue 1, article id. L10, 6 pp. (2019).
+
+4. [NuSTAR Discovery of a Compton-thick, Dust-obscured Galaxy: WISE J0825+3002](https://ui.adsabs.harvard.edu/abs/2020ApJ...888....8T/abstract)  
+   Yoshiki Toba et al.  
+   The Astrophysical Journal, Volume 888, Issue 1, article id. 8, 8 pp. (2020).
+
+5. [Application of an X-Ray Clumpy Torus Model (XCLUMPY) to 10 Obscured Active Galactic Nuclei Observed with Suzaku and NuSTAR](https://ui.adsabs.harvard.edu/abs/2020ApJ...897....2T/abstract)  
+   Atsushi Tanimoto, Yoshihiro Ueda, Hirokazu Odaka, Shoji Ogawa, Satoshi Yamada, Toshihiro Kawaguchi, & Kohei Ichikawa  
+   The Astrophysical Journal, Volume 897, Issue 1, id.2, 13 pp. (2020).
+
+6. [Nature of Compton-thick Active Galactic Nuclei in "Nonmerging" Luminous Infrared Galaxies UGC 2608 and NGC 5135 Revealed with Broadband X-Ray Spectroscopy](https://ui.adsabs.harvard.edu/abs/2020ApJ...897..107Y/abstract)  
+   Satoshi Yamada, Yoshihiro Ueda, Atsushi Tanimoto, Saeko Oda, Masatoshi Imanishi, Yoshiki Toba, & Ricci Claudio  
+   The Astrophysical Journal, Volume 897, Issue 1, id.107, (2020).
 
 
 ## Acknowledgement
