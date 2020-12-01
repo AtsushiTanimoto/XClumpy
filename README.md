@@ -37,7 +37,8 @@ This model consists of five components:
 
 
 ## Parameters
-The XClumpy model has six parameters.  
+The XClumpy model has six parameters.
+
 | Parameter | Explanation                                        | Range                           | Units           | 
 | :-------: | :------------------------------------------------: | :-----------------------------: | :-------------: | 
 | nh        | hydrogen column density along the equatorial plane | 10<sup>23</sup>-10<sup>25</sup> | cm<sup>-2</sup> | 
@@ -48,7 +49,9 @@ The XClumpy model has six parameters.
 | norm      | normalization                                      | ...                             | ...             | 
 
 
-## Examples
+## Example
+We show the dependence of the reflection continuum on the hydrogen column density along the equatorial plane as an example. Red line: log N<sub>H</sub>/cm<sup>-2</sup> = 23.5. Orange line: log N<sub>H</sub>/cm<sup>-2</sup> = 24.0. Blue line: log N<sub>H</sub>/cm<sup>-2</sup> = 24.5. Here we adopt sigma = 30 degree, i = 60 degree, gamma = 2.0, cutoff = 370 keV, and norm = 1.
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/20199124/100716198-b451ce00-33fb-11eb-9e6a-72e370c3ae0c.jpg">
 </p>
