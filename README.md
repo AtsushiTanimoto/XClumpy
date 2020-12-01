@@ -50,7 +50,7 @@ The XClumpy model has six parameters.
 
 
 ## Example
-We show the dependence of the reflection continuum on the hydrogen column density along the equatorial plane as an example. Red line: log N<sub>H</sub>/cm<sup>-2</sup> = 23.5. Orange line: log N<sub>H</sub>/cm<sup>-2</sup> = 24.0. Blue line: log N<sub>H</sub>/cm<sup>-2</sup> = 24.5. Here we adopt sigma = 30 degree, i = 60 degree, gamma = 2.0, cutoff = 370 keV, and norm = 1.
+We show the dependence of the reflection continuum on the hydrogen column density along the equatorial plane as an example. Red line is log N<sub>H</sub>/cm<sup>-2</sup> = 23.5, orange line is log N<sub>H</sub>/cm<sup>-2</sup> = 24.0, and blue line is log N<sub>H</sub>/cm<sup>-2</sup> = 24.5. Here we adopt sigma = 30 degree, i = 60 degree, gamma = 2.0, cutoff = 370 keV, and norm = 1.0.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/20199124/100716198-b451ce00-33fb-11eb-9e6a-72e370c3ae0c.jpg">
