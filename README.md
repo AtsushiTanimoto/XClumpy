@@ -16,8 +16,8 @@ We prepared an xcm file of the XClumpy model (xclumpy.xcm). Our spectral model i
 `const1*phabs*(zphabs*cabs*zcutoffpl+atable{xclumpy_v01_RC.fits}+atable{xclumpy_v01_RL.fits})`  
 
 This model consists of four components:  
-1. `const1*phabs`  
-   The const1 term is a cross-normalization constant to adjust small differences in the absolute flux calibration among different instruments. The phabs term represents the Galactic absorption.  
+1. `const*phabs`  
+   The const term is a cross-normalization constant to adjust small differences in the absolute flux calibration among different instruments. The phabs term represents the Galactic absorption.  
 
 2. `zphabs*cabs*zcutoffpl`  
    This component represents the transmitted continuum through the torus. The zphabs and cabs terms represent the photoelectric absorption and Compton scattering by the torus, respectively. The hydrogen column density along the line of sight is determined according to Equation (1). The zcutoffpl term is the intrinsic continuum modeled by a power-law with an exponential cutoff. We fix this at a typical value (E<sub>cut</sub> = 370 keV: [Ricci et al. 2018](https://ui.adsabs.harvard.edu/abs/2018MNRAS.480.1819R/abstract)).  
