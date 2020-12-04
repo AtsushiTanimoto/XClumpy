@@ -36,14 +36,14 @@ This model consists of four components:
 ## Parameters
 The XClumpy model has six parameters.
 
-| Parameter | Explanation                                        | Range                           | Units           | 
-| :-------: | :------------------------------------------------: | :-----------------------------: | :-------------: | 
-| nh        | hydrogen column density along the equatorial plane | 10<sup>23</sup>-10<sup>25</sup> | cm<sup>-2</sup> | 
-| sigma     | torus angular width                                | 10-90                           | degree          | 
-| incl      | inclination angle                                  | 20-87                           | degree          | 
-| gamma     | photon index                                       | 1.5-2.5                         | ...             | 
-| cutoff    | cutoff energy                                      | 370                             | keV             | 
-| norm      | normalization                                      | ...                             | ...             | 
+| Parameter | Explanation                                        | Range                           | Units                                                             | 
+| :-------: | :------------------------------------------------: | :-----------------------------: | :-------------:                                                   | 
+| nh        | hydrogen column density along the equatorial plane | 10<sup>23</sup>-10<sup>25</sup> | cm<sup>-2</sup>                                                   | 
+| sigma     | torus angular width                                | 10-90                           | degree                                                           | 
+| incl      | inclination angle                                  | 20-87                           | degree                                                           | 
+| gamma     | photon index                                       | 1.5-2.5                         | ...                                                               | 
+| cutoff    | cutoff energy                                      | 370                             | keV                                                               | 
+| norm      | normalization                                      | ...                             | photons s<sup>-1</sup>cm<sup>-2</sup>keV<sup>-1</sup> at 1 keV | 
 
 
 ## Example
