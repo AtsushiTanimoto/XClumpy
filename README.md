@@ -56,28 +56,32 @@ We show the dependence of the reflection continuum on the hydrogen column densit
 
 ## Publications
 1. [XCLUMPY: X-Ray Spectral Model from Clumpy Torus and Its Application to the Circinus Galaxy](https://ui.adsabs.harvard.edu/abs/2019ApJ...877...95T/abstract)  
-   Atsushi Tanimoto, Yoshihiro Ueda, Hirokazu Odaka, Toshihiro Kawaguchi, Yasushi Fukazawa, & Taiki Kawamuro  
-   The Astrophysical Journal, Volume 877, Issue 2, article id. 95, 16 pp. (2019).
+    Atsushi Tanimoto, Yoshihiro Ueda, Hirokazu Odaka, Toshihiro Kawaguchi, Yasushi Fukazawa, & Taiki Kawamuro  
+    The Astrophysical Journal, Volume 877, Issue 2, article id. 95, 16 pp. (2019).
 
 2. [Application of Clumpy Torus Model to Broadband X-Ray Spectra of Two Seyfert 1 Galaxies: IC 4329A and NGC 7469](https://ui.adsabs.harvard.edu/abs/2019ApJ...875..115O/abstract)  
-   Shoji Ogawa, Yoshihiro Ueda, Satoshi Yamada, Atsushi Tanimoto, & Toshihiro Kawaguchi  
-   The Astrophysical Journal, Volume 875, Issue 2, article id. 115, 10 pp. (2019).
+    Shoji Ogawa, Yoshihiro Ueda, Satoshi Yamada, Atsushi Tanimoto, & Toshihiro Kawaguchi  
+    The Astrophysical Journal, Volume 875, Issue 2, article id. 115, 10 pp. (2019).
 
 3. [Torus Constraints in ANEPD-CXO245: A Compton-thick AGN with Double-peaked Narrow Lines](https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..10M/abstract)  
-   Takamitsu Miyaji et al.  
-   The Astrophysical Journal Letters, Volume 884, Issue 1, article id. L10, 6 pp. (2019).
+    Takamitsu Miyaji et al.  
+    The Astrophysical Journal Letters, Volume 884, Issue 1, article id. L10, 6 pp. (2019).
 
 4. [NuSTAR Discovery of a Compton-thick, Dust-obscured Galaxy: WISE J0825+3002](https://ui.adsabs.harvard.edu/abs/2020ApJ...888....8T/abstract)  
-   Yoshiki Toba et al.  
-   The Astrophysical Journal, Volume 888, Issue 1, article id. 8, 8 pp. (2020).
+    Yoshiki Toba et al.  
+    The Astrophysical Journal, Volume 888, Issue 1, article id. 8, 8 pp. (2020).
 
 5. [Application of an X-Ray Clumpy Torus Model (XCLUMPY) to 10 Obscured Active Galactic Nuclei Observed with Suzaku and NuSTAR](https://ui.adsabs.harvard.edu/abs/2020ApJ...897....2T/abstract)  
-   Atsushi Tanimoto, Yoshihiro Ueda, Hirokazu Odaka, Shoji Ogawa, Satoshi Yamada, Toshihiro Kawaguchi, & Kohei Ichikawa  
-   The Astrophysical Journal, Volume 897, Issue 1, id.2, 13 pp. (2020).
+    Atsushi Tanimoto, Yoshihiro Ueda, Hirokazu Odaka, Shoji Ogawa, Satoshi Yamada, Toshihiro Kawaguchi, & Kohei Ichikawa  
+    The Astrophysical Journal, Volume 897, Issue 1, id.2, 13 pp. (2020).
 
 6. [Nature of Compton-thick Active Galactic Nuclei in "Nonmerging" Luminous Infrared Galaxies UGC 2608 and NGC 5135 Revealed with Broadband X-Ray Spectroscopy](https://ui.adsabs.harvard.edu/abs/2020ApJ...897..107Y/abstract)  
-   Satoshi Yamada, Yoshihiro Ueda, Atsushi Tanimoto, Saeko Oda, Masatoshi Imanishi, Yoshiki Toba, & Ricci Claudio  
-   The Astrophysical Journal, Volume 897, Issue 1, id.107, (2020).
+    Satoshi Yamada, Yoshihiro Ueda, Atsushi Tanimoto, Saeko Oda, Masatoshi Imanishi, Yoshiki Toba, & Ricci Claudio  
+    The Astrophysical Journal, Volume 897, Issue 1, id.107, (2020).
+
+7. [Systematic Study of AGN Clumpy Tori with Broadband X-Ray Spectroscopy: Updated Unified Picture of AGN Structure](https://ui.adsabs.harvard.edu/abs/2021ApJ...906...84O/abstract)
+    Shoji Ogawa, Yoshihiro Ueda, Atsushi Tanimoto, & Satoshi Yamada
+    The Astrophysical Journal, Volume 906, Issue 2, id.84, (2021).
 
 
 ## Citation
