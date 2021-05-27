@@ -79,8 +79,8 @@ We show the dependence of the reflection continuum on the hydrogen column densit
     Satoshi Yamada, Yoshihiro Ueda, Atsushi Tanimoto, Saeko Oda, Masatoshi Imanishi, Yoshiki Toba, & Ricci Claudio  
     The Astrophysical Journal, Volume 897, Issue 1, id.107, (2020).
 
-7. [Systematic Study of AGN Clumpy Tori with Broadband X-Ray Spectroscopy: Updated Unified Picture of AGN Structure](https://ui.adsabs.harvard.edu/abs/2021ApJ...906...84O/abstract)
-    Shoji Ogawa, Yoshihiro Ueda, Atsushi Tanimoto, & Satoshi Yamada
+7. [Systematic Study of AGN Clumpy Tori with Broadband X-Ray Spectroscopy: Updated Unified Picture of AGN Structure](https://ui.adsabs.harvard.edu/abs/2021ApJ...906...84O/abstract)  
+    Shoji Ogawa, Yoshihiro Ueda, Atsushi Tanimoto, & Satoshi Yamada  
     The Astrophysical Journal, Volume 906, Issue 2, id.84, (2021).
 
 
