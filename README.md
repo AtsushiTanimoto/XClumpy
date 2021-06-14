@@ -83,8 +83,8 @@ We show the dependence of the reflection continuum on the hydrogen column densit
    Shoji Ogawa, Yoshihiro Ueda, Atsushi Tanimoto, & Satoshi Yamada  
    The Astrophysical Journal, Volume 906, Issue 2, id.84, (2021).
 
-8. [X-Ray Constraint on the Location of the AGN Torus in the Circinus Galaxy](https://ui.adsabs.harvard.edu/abs/2021ApJ...913...17U/abstract)
-   Ryosuke Uematsu, Yoshihiro Ueda, Atsushi Tanimoto, Taiki Kawamuro, Kenta Setoguchi, Shoji Ogawa, Satoshi Yamada, & Hirokazu Odaka
+8. [X-Ray Constraint on the Location of the AGN Torus in the Circinus Galaxy](https://ui.adsabs.harvard.edu/abs/2021ApJ...913...17U/abstract)  
+   Ryosuke Uematsu, Yoshihiro Ueda, Atsushi Tanimoto, Taiki Kawamuro, Kenta Setoguchi, Shoji Ogawa, Satoshi Yamada, & Hirokazu Odaka  
    The Astrophysical Journal, Volume 913, Issue 1, id.17, (2021)
 
 
