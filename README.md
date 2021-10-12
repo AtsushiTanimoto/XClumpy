@@ -13,7 +13,7 @@ The adopted geometry of the torus is the same as that in [Nenkova et al. (2008)]
 
 ## Usage
 We prepared an xcm file of the XClumpy model (xclumpy.xcm). Our spectral model is represented as follows in XSPEC terminology:  
-`const*phabs*(zphabs*cabs*zcutoffpl+atable{xclumpy_v01_RC.fits}+atable{xclumpy_v01_RL.fits})`  
+`const*phabs*(cabs*zphabs*zcutoffpl+atable{xclumpy_v01_RC.fits}+atable{xclumpy_v01_RL.fits})`  
 
 This model consists of four components:  
 1. `const*phabs`  
