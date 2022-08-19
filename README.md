@@ -55,37 +55,50 @@ We show the dependence of the reflection continuum on the hydrogen column densit
 
 
 ## Publications
-1. [XCLUMPY: X-Ray Spectral Model from Clumpy Torus and Its Application to the Circinus Galaxy](https://ui.adsabs.harvard.edu/abs/2019ApJ...877...95T/abstract)  
-   Atsushi Tanimoto, Yoshihiro Ueda, Hirokazu Odaka, Toshihiro Kawaguchi, Yasushi Fukazawa, & Taiki Kawamuro  
-   The Astrophysical Journal, Volume 877, Issue 2, article id. 95, 16 pp. (2019).
+01. [XCLUMPY: X-Ray Spectral Model from Clumpy Torus and Its Application to the Circinus Galaxy](https://ui.adsabs.harvard.edu/abs/2019ApJ...877...95T/abstract)  
+    Atsushi Tanimoto, Yoshihiro Ueda, Hirokazu Odaka, Toshihiro Kawaguchi, Yasushi Fukazawa, and Taiki Kawamuro  
+    The Astrophysical Journal, Volume 877, Issue 2, Eid 95, 2019.
 
-2. [Application of Clumpy Torus Model to Broadband X-Ray Spectra of Two Seyfert 1 Galaxies: IC 4329A and NGC 7469](https://ui.adsabs.harvard.edu/abs/2019ApJ...875..115O/abstract)  
-   Shoji Ogawa, Yoshihiro Ueda, Satoshi Yamada, Atsushi Tanimoto, & Toshihiro Kawaguchi  
-   The Astrophysical Journal, Volume 875, Issue 2, article id. 115, 10 pp. (2019).
+02. [Application of Clumpy Torus Model to Broadband X-Ray Spectra of Two Seyfert 1 Galaxies: IC 4329A and NGC 7469](https://ui.adsabs.harvard.edu/abs/2019ApJ...875..115O/abstract)  
+    Shoji Ogawa, Yoshihiro Ueda, Satoshi Yamada, Atsushi Tanimoto, and Toshihiro Kawaguchi  
+    The Astrophysical Journal, Volume 875, Issue 2, Eid 115, 2019.
 
-3. [Torus Constraints in ANEPD-CXO245: A Compton-thick AGN with Double-peaked Narrow Lines](https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..10M/abstract)  
-   Takamitsu Miyaji et al.  
-   The Astrophysical Journal Letters, Volume 884, Issue 1, article id. L10, 6 pp. (2019).
+03. [Torus Constraints in ANEPD-CXO245: A Compton-thick AGN with Double-peaked Narrow Lines](https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..10M/abstract) 
+    Takamitsu Miyaji et al.  
+    The Astrophysical Journal Letters, Volume 884, Issue 1, Eid L10, 2019.
 
-4. [NuSTAR Discovery of a Compton-thick, Dust-obscured Galaxy: WISE J0825+3002](https://ui.adsabs.harvard.edu/abs/2020ApJ...888....8T/abstract)  
-   Yoshiki Toba et al.  
-   The Astrophysical Journal, Volume 888, Issue 1, article id. 8, 8 pp. (2020).
+04. [NuSTAR Discovery of a Compton-thick, Dust-obscured Galaxy: WISE J0825+3002](https://ui.adsabs.harvard.edu/abs/2020ApJ...888....8T/abstract)  
+    Yoshiki Toba et al.  
+    The Astrophysical Journal, Volume 888, Issue 1, Eid 8, 2020.
 
-5. [Application of an X-Ray Clumpy Torus Model (XCLUMPY) to 10 Obscured Active Galactic Nuclei Observed with Suzaku and NuSTAR](https://ui.adsabs.harvard.edu/abs/2020ApJ...897....2T/abstract)  
-   Atsushi Tanimoto, Yoshihiro Ueda, Hirokazu Odaka, Shoji Ogawa, Satoshi Yamada, Toshihiro Kawaguchi, & Kohei Ichikawa  
-   The Astrophysical Journal, Volume 897, Issue 1, id.2, 13 pp. (2020).
+05. [Application of an X-Ray Clumpy Torus Model (XCLUMPY) to 10 Obscured Active Galactic Nuclei Observed with Suzaku and NuSTAR](https://ui.adsabs.harvard.edu/abs/2020ApJ...897....2T/abstract)  
+    Atsushi Tanimoto, Yoshihiro Ueda, Hirokazu Odaka, Shoji Ogawa, Satoshi Yamada, Toshihiro Kawaguchi, and Kohei Ichikawa  
+    The Astrophysical Journal, Volume 897, Issue 1, Eid 2, 2020.
 
-6. [Nature of Compton-thick Active Galactic Nuclei in "Nonmerging" Luminous Infrared Galaxies UGC 2608 and NGC 5135 Revealed with Broadband X-Ray Spectroscopy](https://ui.adsabs.harvard.edu/abs/2020ApJ...897..107Y/abstract)  
-   Satoshi Yamada, Yoshihiro Ueda, Atsushi Tanimoto, Saeko Oda, Masatoshi Imanishi, Yoshiki Toba, & Ricci Claudio  
-   The Astrophysical Journal, Volume 897, Issue 1, id.107, (2020).
+06. [Nature of Compton-thick Active Galactic Nuclei in "Nonmerging" Luminous Infrared Galaxies UGC 2608 and NGC 5135 Revealed with Broadband X-Ray Spectroscopy](https://ui.adsabs.harvard.edu/abs/2020ApJ...897..107Y/abstract)  
+    Satoshi Yamada, Yoshihiro Ueda, Atsushi Tanimoto, Saeko Oda, Masatoshi Imanishi, Yoshiki Toba, and Ricci Claudio  
+    The Astrophysical Journal, Volume 897, Issue 1, Eid 107, 2020.
 
-7. [Systematic Study of AGN Clumpy Tori with Broadband X-Ray Spectroscopy: Updated Unified Picture of AGN Structure](https://ui.adsabs.harvard.edu/abs/2021ApJ...906...84O/abstract)  
-   Shoji Ogawa, Yoshihiro Ueda, Atsushi Tanimoto, & Satoshi Yamada  
-   The Astrophysical Journal, Volume 906, Issue 2, id.84, (2021).
+07. [Systematic Study of AGN Clumpy Tori with Broadband X-Ray Spectroscopy: Updated Unified Picture of AGN Structure](https://ui.adsabs.harvard.edu/abs/2021ApJ...906...84O/abstract)  
+    Shoji Ogawa, Yoshihiro Ueda, Atsushi Tanimoto, and Satoshi Yamada  
+    The Astrophysical Journal, Volume 906, Issue 2, Eid 84, 2021.
 
-8. [X-Ray Constraint on the Location of the AGN Torus in the Circinus Galaxy](https://ui.adsabs.harvard.edu/abs/2021ApJ...913...17U/abstract)  
-   Ryosuke Uematsu, Yoshihiro Ueda, Atsushi Tanimoto, Taiki Kawamuro, Kenta Setoguchi, Shoji Ogawa, Satoshi Yamada, & Hirokazu Odaka  
-   The Astrophysical Journal, Volume 913, Issue 1, id.17, (2021)
+08. [X-Ray Constraint on the Location of the AGN Torus in the Circinus Galaxy](https://ui.adsabs.harvard.edu/abs/2021ApJ...913...17U/abstract)  
+    Ryosuke Uematsu, Yoshihiro Ueda, Atsushi Tanimoto, Taiki Kawamuro, Kenta Setoguchi, Shoji Ogawa, Satoshi Yamada, and Hirokazu Odaka  
+    The Astrophysical Journal, Volume 913, Issue 1, Eid 17, 2021.
+
+09. [Comprehensive Broadband X-Ray and Multiwavelength Study of Active Galactic Nuclei in 57 Local Luminous and Ultraluminous Infrared Galaxies Observed with NuSTAR and/or Swift/BAT](https://ui.adsabs.harvard.edu/abs/2021ApJS..257...61Y/abstract)
+    Satoshi Yamada, Yoshihiro Ueda, Atsushi Tanimoto, Masatoshi Imanishi, Yoshiki Toba, Claudio Ricci, and George Privon
+    The Astrophysical Journal Supplement Series, Volume 257, Issue 2, Eid 61, 2021.
+
+10. [NuSTAR Observations of 52 Compton-thick Active Galactic Nuclei Selected by the Swift/Burst Alert Telescope All-sky Hard X-Ray Survey
+](https://ui.adsabs.harvard.edu/abs/2022ApJS..260...30T/abstract)
+    Atsushi Tanimoto, Yoshihiro Ueda, Hirokazu Odaka, Satoshi Yamada, and Claudio Ricci
+    The Astrophysical Journal Supplement Series, Volume 260, Issue 2, Eid 30, 2022.
+
+11. [Absorption variability of the highly obscured active galactic nucleus NGC 4507](https://ui.adsabs.harvard.edu/abs/2022MNRAS.512.5942J/abstract)
+    Arghajit Jana et al.
+    Monthly Notices of the Royal Astronomical Society, Volume 512, Issue 4, 2022.
 
 
 ## Citation
