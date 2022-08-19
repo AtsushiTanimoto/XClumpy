@@ -17,20 +17,20 @@ We prepared an xcm file of the XClumpy model (xclumpy.xcm). Our spectral model i
 
 This model consists of four components:  
 1. `const*phabs`  
-   The const term is a cross-normalization constant to adjust small differences in the absolute flux calibration among different instruments. The phabs term represents the Galactic absorption.  
+The const term is a cross-normalization constant to adjust small differences in the absolute flux calibration among different instruments. The phabs term represents the Galactic absorption.  
 
 2. `cabs*zphabs*zcutoffpl`  
-   This component represents the transmitted continuum through the torus. The zphabs and cabs terms represent the photoelectric absorption and Compton scattering by the torus, respectively. The hydrogen column density along the line of sight is determined according to Equation (1). The zcutoffpl term is the intrinsic continuum modeled by a power-law with an exponential cutoff. We fix this at a typical value (E<sub>cut</sub> = 370 keV: [Ricci et al. 2018](https://ui.adsabs.harvard.edu/abs/2018MNRAS.480.1819R/abstract)).  
+This component represents the transmitted continuum through the torus. The zphabs and cabs terms represent the photoelectric absorption and Compton scattering by the torus, respectively. The hydrogen column density along the line of sight is determined according to Equation (1). The zcutoffpl term is the intrinsic continuum modeled by a power-law with an exponential cutoff.
 
 3. `atable{xclumpy_v01_RC.fits}`  
-   This component represents the reflection continuum from the clumpy torus based on the XClumpy model. This XClumpy model has six parameters: (1) hydrogen column density along the equatorial plane, (2) torus angular width, (3) inclination angle, (4) photon index, (5) cutoff energy, and (6) normalization (See Parameters). The photon index, cutoff energy, and normalization must be linked to those of the intrinsic continuum. We determine the line-of-sight hydrogen column density the following equation:
+This component represents the reflection continuum from the clumpy torus based on the XClumpy model. This XClumpy model has six parameters: (1) hydrogen column density along the equatorial plane, (2) torus angular width, (3) inclination angle, (4) photon index, (5) cutoff energy, and (6) normalization. The photon index, cutoff energy, and normalization must be linked to those of the intrinsic continuum. We determine the line-of-sight hydrogen column density the following equation:
 
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Cbegin%7Bequation%7D%0AN_%7B%5Cmathrm%7BH%7D%7D%5E%7B%5Cmathrm%7BLOS%7D%7D+%3D+N_%7B%5Cmathrm%7BH%7D%7D%5E%7B%5Cmathrm%7BEqu%7D%7D+%5Cexp%5Cleft%28%7B-%5Cfrac%7B%28i-%5Cpi%2F2%29%5E2%7D%7B%5Csigma%5E2%7D%7D%5Cright%29%0A%5Cend%7Bequation%7D%0A" alt="\begin{equation} N_{\mathrm{H}}^{\mathrm{LOS}} = N_{\mathrm{H}}^{\mathrm{Equ}} \exp\left({-\frac{(i-\pi/2)^2}{\sigma^2}}\right)\end{equation}">
 </p>
 
 4. `atable{xclumpy_v01_RL.fits}`  
-   This component represents fluorescence lines from the clumpy torus based on the XClumpy model. The hydrogen column density along the equatorial plane, torus angular width, inclination angle, photon index, cutoff energy, and normalization must be linked to those of the reflection continuum.
+This component represents fluorescence lines from the clumpy torus based on the XClumpy model. The hydrogen column density along the equatorial plane, torus angular width, inclination angle, photon index, cutoff energy, and normalization must be linked to those of the reflection continuum.
 
 
 ## Parameters
