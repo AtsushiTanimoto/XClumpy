@@ -42,7 +42,7 @@ The XClumpy model has six parameters.
 | sigma     | torus angular width                                | 10-90                           | degree                                                           | 
 | incl      | inclination angle                                  | 20-87                           | degree                                                           | 
 | gamma     | photon index                                       | 1.0-3.0                         | ...                                                               | 
-| cutoff    | cutoff energy                                      | 370                             | keV                                                               | 
+| cutoff    | cutoff energy                                      | 10-1000                         | keV                                                               | 
 | norm      | normalization                                      | ...                             | photons s<sup>-1</sup> cm<sup>-2</sup> keV<sup>-1</sup> at 1 keV | 
 
 
