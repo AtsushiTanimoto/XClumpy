@@ -1,10 +1,10 @@
 # XClumpy
 ## Introduction
-XClumpy [(Tanimoto et al. 2019)](https://ui.adsabs.harvard.edu/abs/2019ApJ...877...95T/abstract) is an X-ray spectral model from the clumpy torus in an Active Galactic Nucleus, utilizing the Monte Carlo simulation for Astrophysics and Cosmology framework (MONACO: [Odaka et al. 2011](https://ui.adsabs.harvard.edu/abs/2011ApJ...740..103O/abstract)).
+XClumpy [(Tanimoto et al. 2019)](https://ui.adsabs.harvard.edu/abs/2019ApJ...877...95T/abstract) is an X-ray spectral model from the clumpy torus in an Active Galactic Nucleus, using the Monte Carlo simulation for Astrophysics and Cosmology framework (MONACO: [Odaka et al. 2011](https://ui.adsabs.harvard.edu/abs/2011ApJ...740..103O/abstract)).
 
 
 ## Torus Geometry
-The adopted geometry of the torus is the same as that in [Nenkova et al. (2008)](https://ui.adsabs.harvard.edu/abs/2008ApJ...685..160N/abstract), who assume a power-law distribution of clumps in the radial direction and a normal distribution in the elevation direction. This enables us to directly compare the results obtained from the infrared and X-ray bands. See [Tanimoto et al. (2019)](https://ui.adsabs.harvard.edu/abs/2019ApJ...877...95T/abstract) for more details.
+The adopted geometry of the torus is the same as that in [Nenkova et al. (2008)](https://ui.adsabs.harvard.edu/abs/2008ApJ...685..160N/abstract), who assumes a power-law distribution of clumps in the radial direction and a normal distribution in the elevation direction. This enables us to directly compare the results obtained from the infrared and X-ray bands. See [Tanimoto et al. (2019)](https://ui.adsabs.harvard.edu/abs/2019ApJ...877...95T/abstract) for more details.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/20199124/100601931-96766180-3346-11eb-9f25-2f96b4a8671c.jpg">
@@ -43,7 +43,7 @@ The XClumpy model has six parameters.
 | incl      | inclination angle                                  | 20-87                           | degree                                                           | 
 | gamma     | photon index                                       | 1.0-3.0                         | ...                                                               | 
 | cutoff    | cutoff energy                                      | 10-1000                         | keV                                                               | 
-| norm      | normalization                                      | ...                             | photons s<sup>-1</sup> cm<sup>-2</sup> keV<sup>-1</sup> at 1 keV | 
+| norm      | normalization                                      | ...                             | photons s<sup>-1</sup> cm<sup>-2</sup> keV<sup>-1</sup> at 1 keV in the Earch frame| 
 
 
 ## Example
