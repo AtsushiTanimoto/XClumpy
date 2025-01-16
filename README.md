@@ -4,7 +4,7 @@ XClumpy [(Tanimoto et al. 2019)](https://ui.adsabs.harvard.edu/abs/2019ApJ...877
 
 ## Installation
 1. Since the size of the model is large, please install git lfs first.  
-`brew install fit-lfs`
+`brew install git-lfs`
 2. Then, please install hte model with the following command.  
 `git clone https://github.com/AtsushiTanimoto/XClumpy.git`
 
