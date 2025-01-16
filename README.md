@@ -2,6 +2,12 @@
 ## Introduction
 XClumpy [(Tanimoto et al. 2019)](https://ui.adsabs.harvard.edu/abs/2019ApJ...877...95T/abstract) is an X-ray spectral model from the clumpy torus in an Active Galactic Nucleus, using the Monte Carlo simulation for Astrophysics and Cosmology framework (MONACO: [Odaka et al. 2011](https://ui.adsabs.harvard.edu/abs/2011ApJ...740..103O/abstract)).
 
+## Installation
+1. Since the size of the model is large, please install git lfs first.  
+`brew install fit-lfs`
+2. Then, please install hte model with the following command.  
+`git clone https://github.com/AtsushiTanimoto/XClumpy.git`
+
 
 ## Torus Geometry
 The adopted geometry of the torus is the same as that in [Nenkova et al. (2008)](https://ui.adsabs.harvard.edu/abs/2008ApJ...685..160N/abstract), who assumes a power-law distribution of clumps in the radial direction and a normal distribution in the elevation direction. This enables us to directly compare the results obtained from the infrared and X-ray bands. See [Tanimoto et al. (2019)](https://ui.adsabs.harvard.edu/abs/2019ApJ...877...95T/abstract) for more details.
